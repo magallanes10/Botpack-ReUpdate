@@ -1,0 +1,25 @@
+{
+  "1318891403069148": {
+    "guard": true,
+    "originalName": "Testing Area",
+    "nameWarnings": {
+      "100036956043695": 1
+    }
+  },
+  "1114877870750382": {
+    "guard": true,
+    "originalName": "L$D - BOT GC",
+    "originalImage": "/home/container/modules/database/image_1114877870750382.jpg",
+    "nameWarnings": {}
+  },
+  "1318801133253970": {
+    "originalName": "L$D Cohort - Kupal day",
+    "originalImage": "/home/container/modules/database/image_1318801133253970.jpg"
+  },
+  "25443917901876423": {
+    "originalName": "L$D COHORT",
+    "originalImage": "/home/container/modules/database/image_25443917901876423.jpg",
+    "guard": true,
+    "nameWarnings": {}
+  }
+}
