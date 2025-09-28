@@ -12,12 +12,20 @@ jobs:
       - name: Checkout code (full history)
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # <-- important! unshallow the repo
+          fetch-depth: 0
 
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install Git LFS and track binaries
+        run: |
+          git lfs install
+          git lfs track "*.jpg"
+          git lfs track "*.png"
+          git add .gitattributes
+          git commit -m "Track images with Git LFS" || true
 
       - name: Push to Hugging Face
         env:
